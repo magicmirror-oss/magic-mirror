@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#080808"/>
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="mir" cx="35%" cy="30%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.3)"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="158" fill="url(#mir)" stroke="rgba(255,248,220,0.9)" stroke-width="1.5" filter="url(#glow)"/>
+  <circle cx="200" cy="200" r="150" fill="rgba(12,12,18,0.85)"/>
+  <circle cx="200" cy="200" r="158" fill="none" stroke="rgba(255,210,100,0.5)" stroke-width="12" opacity="0.35"/>
+  <text x="200" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Round LED</text>
+</svg>

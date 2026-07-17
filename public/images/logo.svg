@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <circle cx="200" cy="200" r="200" fill="#0A0A0A"/>
+  <circle cx="200" cy="200" r="160" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <circle cx="200" cy="200" r="195" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="200" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="72" font-weight="bold" fill="white" letter-spacing="4">MM</text>
+  <text x="200" y="240" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="rgba(255,255,255,0.5)" letter-spacing="6">MIRROR</text>
+</svg>
